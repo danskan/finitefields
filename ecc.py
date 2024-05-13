@@ -5,3 +5,5 @@ class FieldElement:
             raiseValueEError(error)
         self.num = num
         self.prime = prime
+    def __repr__(self):
+        return 'FieldElement_{}({})'.format(self.prime, self.num)
