@@ -15,5 +15,7 @@
  4. Additive Inverse: If a is in the set, -a is in the set, which is defined as the value that makes a + (-a) = 0.
  5. Multiplicative Inverse Identitfy: 4. If a is in the set and is not 0, a^-1^ is in the set, which is defined as the value that makes a * a^1-1^ = 1.
 
+ It is important to note, that it is logical to alter the mathematical functions in order to fit the criteria (e.g. using modulo arithmetic to meet the criteria is permissible, among other techniques)
+
  ### Sources Cited
  * Definitions - "Programming Bitcoin" by Jimmy Song
