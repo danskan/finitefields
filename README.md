@@ -17,5 +17,8 @@
 
  It is important to note, that it is logical to alter the mathematical functions in order to fit the criteria (e.g. using modulo arithmetic to meet the criteria is permissible, among other techniques)
 
+ ### Code Samples
+1. ecc.py* creates a class around the field elements themselves. Think ff = [a, b, c, (p-1)], ecc creates a class around each entry "x" at each index of ff.
+
  ### Sources Cited
  * Definitions - "Programming Bitcoin" by Jimmy Song
