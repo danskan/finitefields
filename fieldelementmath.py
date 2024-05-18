@@ -4,7 +4,7 @@ print(f'Defining a as field element 7 and 13, for example')
 a=FieldElement(7, 13)
 
 print(f'Defining b as field element 6 and 13, for example')
-b=FieldElement(6,13)
+b=FieldElement(6, 13)
 
 print(f'Checking if a is equal to b')
 print(a==b)
