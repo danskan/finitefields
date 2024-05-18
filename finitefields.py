@@ -16,6 +16,19 @@ class FieldElement:
             return False
         return self.num == other.num and self.prime == other.prime
     
+    def __ne__(self, other):
+        if self != other:
+            return True
+        else:
+            return False
+    
 print(f'pause1')
+
+print(f'Now let\'s do some math')
+a = FieldElement(7,13)
+b= FieldElement(12,13)
+c = FieldElement(6,13)
+print(a+b==c)
+
 print(f'pause2')
 print(f'pause3')
