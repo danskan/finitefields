@@ -28,12 +28,3 @@ class FieldElement:
         num = (self.num + other.num)  % self.prime
         return self.__class__(num, self.prime)
 print(f'pause1')
-
-print(f'Now let\'s do some math')
-a = FieldElement(7,13)
-b= FieldElement(12,13)
-c = FieldElement(6,13)
-print(a+b==c)
-
-print(f'pause2')
-print(f'pause3')

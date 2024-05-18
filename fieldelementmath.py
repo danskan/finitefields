@@ -16,7 +16,10 @@ print(f'Checking if b is equal to b')
 print(b==b)
 
 print(f'Now let\'s do some math')
+print(f'If finite field prime=13 has 7 and 12 in it, what is 7 plus 12?')
 a = FieldElement(7,13)
 b= FieldElement(12,13)
 c = FieldElement(6,13)
-print(a+b==c)
+print(a+b)
+
+print(f'pause2')
