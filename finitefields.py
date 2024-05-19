@@ -30,7 +30,7 @@ class FieldElement:
     
     def __sub__(self, other):
         if self.prime != other.prime:
-            raise TypeError('Cannot add two numbers in different fields')
+            raise TypeError('Cannot subtract two numbers in different fields')
         num = (self.num - other.num) % self.prime
         return self.__class__(num, self.prime)
     
