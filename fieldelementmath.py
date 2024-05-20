@@ -23,4 +23,4 @@ c = FieldElement(6,13)
 print(a+b)
 print(a-b)
 
-print(f'pause 3')
+print(f'pause')
